@@ -1,0 +1,15 @@
+{
+  "name": "KameraRotation Update",
+  "version": "6.x",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "BinKameraRotation5_5/KamRot.ino.bootloader.bin", "offset": 0 },
+        { "path": "BinKameraRotation5_5/KamRot.ino.partitions.bin", "offset": 32768 },
+        { "path": "BinKameraRotation5_5/KamRot.ino.bin", "offset": 65536 },
+        { "path": "BinKameraRotation5_5/boot_app0.bin", "offset": 57344 }
+      ]
+    }
+  ]
+}
